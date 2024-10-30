@@ -9,3 +9,5 @@ fruit.forEach(f => console.log(f));
 
 
 ["apple","banana","cherry"].forEach(n => console.log(n));
+
+[11,14,16,25].forEach((n,i,a)=> i ? console.log(n - a[i-1]) : 0);
